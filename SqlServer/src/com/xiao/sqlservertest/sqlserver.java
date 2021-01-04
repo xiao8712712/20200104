@@ -16,7 +16,7 @@ public class sqlserver {
 			String password="123456789";
 			Connection connection = DriverManager.getConnection(url, username, password);
 			if(connection==null) {
-				System.out.println("连接失败1!!!!");
+				System.out.println("连接失败1!!!!111111");
 				
 			}else {
 				System.out.println("连接成功");
